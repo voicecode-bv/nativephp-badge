@@ -1,6 +1,6 @@
 <?php
 
-namespace VoicecodeBv\NativeBadge;
+namespace VoicecodeBv\NativephpBadge;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,5 +1,5 @@
 {
-    "name": "voicecode-bv/native-badge",
+    "name": "voicecode-bv/nativephp-badge",
     "description": "Set the app icon badge counter from JS/PHP for NativePHP Mobile",
     "type": "nativephp-plugin",
     "license": "MIT",
@@ -14,16 +14,16 @@
     },
     "autoload": {
         "psr-4": {
-            "VoicecodeBv\\NativeBadge\\": "src/"
+            "VoicecodeBv\\NativephpBadge\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "VoicecodeBv\\NativeBadge\\NativeBadgeServiceProvider"
+                "VoicecodeBv\\NativephpBadge\\NativeBadgeServiceProvider"
             ],
             "aliases": {
-                "NativeBadge": "VoicecodeBv\\NativeBadge\\Facades\\NativeBadge"
+                "NativeBadge": "VoicecodeBv\\NativephpBadge\\Facades\\NativeBadge"
             }
         },
         "nativephp": {
