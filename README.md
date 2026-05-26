@@ -65,3 +65,7 @@ await setBadge(0); // clear the badge
 | Name        | Params         | Returns           |
 | ----------- | -------------- | ----------------- |
 | `Badge.Set` | `{ count: int }` | `{ success: bool }` |
+
+## License
+
+The MIT License (MIT). See [LICENSE](LICENSE). Copyright (c) Voicecode BV.
