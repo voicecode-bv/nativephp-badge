@@ -1,9 +1,9 @@
 <?php
 
-namespace Innerr\NativeBadge\Facades;
+namespace VoicecodeBv\NativeBadge\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Innerr\NativeBadge\NativeBadge as NativeBadgeService;
+use VoicecodeBv\NativeBadge\NativeBadge as NativeBadgeService;
 
 /**
  * @see NativeBadgeService

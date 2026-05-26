@@ -1,6 +1,6 @@
 <?php
 
-namespace Innerr\NativeBadge;
+namespace VoicecodeBv\NativeBadge;
 
 /**
  * PHP-side facade target for NativeBadge.

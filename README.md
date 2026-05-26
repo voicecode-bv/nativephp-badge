@@ -1,4 +1,4 @@
-# innerr/native-badge
+# voicecode-bv/native-badge
 
 A small NativePHP Mobile plugin that sets the **app icon badge counter**
 (the red number on the app icon) from JavaScript.
@@ -6,7 +6,7 @@ A small NativePHP Mobile plugin that sets the **app icon badge counter**
 ## Installation
 
 ```bash
-composer require innerr/native-badge
+composer require voicecode-bv/native-badge
 ```
 
 If the package is not on Packagist, add the repository to the consuming app's
@@ -18,21 +18,21 @@ If the package is not on Packagist, add the repository to the consuming app's
 ]
 ```
 
-The JS bridge is published under the `@innerr/native-badge` import. Point your
-bundler at it (the package is installed into `vendor/innerr/native-badge`):
+The JS bridge is published under the `@voicecode-bv/native-badge` import. Point your
+bundler at it (the package is installed into `vendor/voicecode-bv/native-badge`):
 
 ```ts
 // vite.config.ts
-'@innerr/native-badge': path.resolve(
+'@voicecode-bv/native-badge': path.resolve(
     __dirname,
-    'vendor/innerr/native-badge/resources/js/index.ts',
+    'vendor/voicecode-bv/native-badge/resources/js/index.ts',
 ),
 ```
 
 ```jsonc
 // tsconfig.json
 "paths": {
-    "@innerr/native-badge": ["./vendor/innerr/native-badge/resources/js/index.ts"]
+    "@voicecode-bv/native-badge": ["./vendor/voicecode-bv/native-badge/resources/js/index.ts"]
 }
 ```
 
@@ -46,7 +46,7 @@ so the SPA can keep the badge in sync with the unread-notifications count.
 ## Usage (JS)
 
 ```ts
-import { setBadge } from '@innerr/native-badge';
+import { setBadge } from '@voicecode-bv/native-badge';
 
 await setBadge(3); // show "3" on the app icon
 await setBadge(0); // clear the badge

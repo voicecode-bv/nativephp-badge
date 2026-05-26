@@ -1,5 +1,5 @@
 /**
- * innerr/native-badge — JS bridge for the NativeBadge plugin.
+ * voicecode-bv/native-badge — JS bridge for the NativeBadge plugin.
  *
  * Sets the app icon badge counter (the number on the app icon). iOS normally
  * derives this from the `aps.badge` field of an incoming push, but it does not
