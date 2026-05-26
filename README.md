@@ -9,15 +9,6 @@ A small NativePHP Mobile plugin that sets the **app icon badge counter**
 composer require voicecode-bv/nativephp-badge
 ```
 
-If the package is not on Packagist, add the repository to the consuming app's
-`composer.json` first:
-
-```json
-"repositories": [
-    { "type": "vcs", "url": "https://github.com/voicecode-bv/nativephp-badge" }
-]
-```
-
 The JS bridge is published under the `@voicecode-bv/nativephp-badge` import. Point your
 bundler at it (the package is installed into `vendor/voicecode-bv/nativephp-badge`):
 
